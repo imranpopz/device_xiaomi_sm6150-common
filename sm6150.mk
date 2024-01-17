@@ -116,9 +116,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -290,6 +287,7 @@ PRODUCT_COPY_FILES += \
 
 # QTI_COMPONENTS
 TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
     bt
 
 # RIL
