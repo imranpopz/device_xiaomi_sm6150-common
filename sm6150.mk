@@ -260,6 +260,7 @@ PRODUCT_COPY_FILES += \
 # QTI_COMPONENTS
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
+    av \
     bt \
     display \
     perf
