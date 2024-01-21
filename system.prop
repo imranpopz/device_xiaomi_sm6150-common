@@ -1,9 +1,6 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
-# CNE
-persist.vendor.cne.feature=1
-
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
@@ -18,9 +15,6 @@ media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
-
-# Radio
-ril.subscription.types=RUIM
 
 # Recovery
 ro.recovery.ui.margin_height=48
